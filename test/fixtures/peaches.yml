@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  freshness: MyString
+  string: MyString
+  color: MyString
+  string: MyString
+
+two:
+  freshness: MyString
+  string: MyString
+  color: MyString
+  string: MyString
