@@ -20,4 +20,12 @@ class Artwork < ApplicationRecord
         class_name: :Comment,
         dependent: :destroy
 
+    has_many :likes,
+        as: :likeable,
+        dependent: :destroy
+
+    has_many :likers,
+        through: :likes,
+        source: :liker,
+        dependent: :destroy
 end
